@@ -1,4 +1,3 @@
-/* --- GLOBAL RESETS & VARIABLES --- */
 * {
     margin: 0;
     padding: 0;
@@ -9,17 +8,14 @@ body {
     font-family: 'Plus Jakarta Sans', sans-serif;
     background-color: #FCFAF7;
     color: #160042;
-    /* overflow повністю прибрано */
 }
 
-/* --- LAYOUT & SPACING --- */
-/* Глобальний контейнер тепер тільки центрує, padding прибрано */
 .container {
     max-width: 1300px;
     margin: 0 auto;
 }
 
-/* Винятки (завдання 4): залишаємо padding для Hero та Footer */
+
 .hero {
     padding-left: 40px;
     padding-right: 40px;
@@ -27,11 +23,10 @@ body {
 
 footer {
     padding: 80px 40px 40px 40px;
-    margin-bottom: 24px; /* Завдання 6: Невеликий відступ знизу для футера */
+    margin-bottom: 24px; 
     border-top: 1px solid #EAEAEA;
 }
 
-/* Завдання 4: Margin-відступи для секцій (32px) */
 .partners, .propositions, .features, .templates, .pricing {
     margin-left: 32px;
     margin-right: 32px;
